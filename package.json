@@ -1,0 +1,17 @@
+{
+  "name": "cold-snack-ui",
+  "theme": "ui",
+  "version": "0.0.1",
+  "description": "Companion to the Cold Snack Syntax theme",
+  "keywords": [
+    "ui",
+    "theme",
+    "cold snack",
+    "montucky"
+  ],
+  "repository": "https://github.com/salcido/cold-snack-ui",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
