@@ -14,7 +14,17 @@
   color: @text-color;
   background-color: @tree-view-background-color;
 
+  .directory {
+    color: @text-color;
+  }
+
+  .file.list-item,
   .list-item.selected {
     color: @text-color-selected;
+  }
+
+  .status-modified,
+  .list-item.status-modified {
+    color: @yellow-light;
   }
 }
