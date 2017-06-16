@@ -11,20 +11,30 @@
 }
 
 .tree-view {
-  color: @text-color;
+  color: darken(@gray-light, 20%);
   background-color: @tree-view-background-color;
 
   .directory {
-    color: @text-color;
+    color: darken(@gray-light, 10%);
   }
 
   .file.list-item,
   .list-item.selected {
-    color: @text-color-selected;
+    color: darken(@gray-light, 10%);
+  }
+
+  .file.list-item.selected {
+    color: @white;
   }
 
   .status-modified,
   .list-item.status-modified {
     color: @yellow-light;
   }
+}
+
+// Project "tab"
+.left li.tab.sortable.active {
+  background-color: darken(@blue-dark, 2%);
+  border-right: none;
 }
