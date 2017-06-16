@@ -39,7 +39,8 @@
   border-right: none;
 }
 
-// settings view
+// Settings View
+// -------------------
 atom-pane-container atom-pane .item-views .pane-item {
   background-color: @blue-dark;
 }
@@ -64,4 +65,12 @@ atom-pane-container atom-pane .item-views .pane-item {
 .settings-view .table td,
 .settings-view .table th {
   border-color: @blue;
+}
+
+atom-pane-container atom-pane .control-group select.form-control {
+  background-color: @blue;
+
+  &:hover {
+    background-color: lighten(@blue, 10%);
+  }
 }
