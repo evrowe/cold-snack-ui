@@ -10,3 +10,13 @@
 .status-modified { color: @text-color-warning; } // orange
 .status-removed  { color: @text-color-error; }   // red
 .status-renamed  { color: @text-color-info; }    // blue
+
+// Added in Git view
+.github-HunkView-line.is-added .github-HunkView-lineContent {
+  background-color: darken(@text-color-success, 50%);
+}
+
+// Removed in Git view
+.github-HunkView-line.is-deleted .github-HunkView-lineContent {
+  background-color: darken(@text-color-error, 50%);
+}
