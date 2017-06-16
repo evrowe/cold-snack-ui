@@ -2,4 +2,4 @@
 
 Companion to the Cold Snack Syntax theme.
 
-![Cold Snack UI](http://i.imgur.com/Lbvw8qB.png)
+![Cold Snack UI](http://i.imgur.com/LPP8kot.png)
