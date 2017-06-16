@@ -7,11 +7,11 @@
 
 .btn {
   color: lighten(@text-color, 6%);
-  background-color: @maroon;
+  background-color: @blue-light;
   &:hover,
   &:focus {
     color: @text-color-highlight;
-    background-color: @button-background-color-hover;
+    background-color: darken(@blue-light, 10%);
   }
   &:active {
     color: fade(@text-color-selected, 66%);
@@ -19,7 +19,10 @@
   }
   &.selected {
     color: @text-color-selected;
-    background-color: @maroon-light;
+    background-color: @orange-dark;
+    &:hover {
+      background-color: darken(@orange-dark, 10%);
+    }
   }
   &:focus,
   &:focus:active {
