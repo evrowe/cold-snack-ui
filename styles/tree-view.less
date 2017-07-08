@@ -16,6 +16,10 @@
 
   .directory {
     color: darken(@gray-light, 10%);
+
+    &.status-ignored {
+      color: @gray-darker;
+    }
   }
 
   .file.list-item,
@@ -35,6 +39,11 @@
   .status-added,
   .list-item.status-added {
     color: @text-color-success;
+  }
+
+  .status-ignored,
+  .list-item.status-ignored {
+    color: @gray-darker;
   }
 }
 
